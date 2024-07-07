@@ -2,7 +2,7 @@ import React from 'react';
 import styles from "./shop-card.module.css"
 import cardsViewStyles from "../cards-view.module.css"
 
-export function ShopCard(product) {
+export function ShopCard({product}) {
   return (
     <article className={[styles.container, cardsViewStyles.element].join(" ")}>
       <div>
