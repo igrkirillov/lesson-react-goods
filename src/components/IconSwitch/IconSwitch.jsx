@@ -5,7 +5,7 @@ export function IconSwitch({icon, onSwitch}) {
   return (
     <>
       <a href="#" onClick={onSwitch}>
-        <img src={icon} alt="button switch" className={styles.img}></img>
+        <span className={icon}>{icon}</span>
       </a>
     </>
   );

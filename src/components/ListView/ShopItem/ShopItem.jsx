@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ShopItem({item}) {
+export function ShopItem({product}) {
   return (
     <div>
 

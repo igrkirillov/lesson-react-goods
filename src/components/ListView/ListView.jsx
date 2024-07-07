@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ListView({item}) {
+export function ListView({products}) {
   return (
     <div>
 
