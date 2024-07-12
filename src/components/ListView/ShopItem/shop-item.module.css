@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.buy-button {
+    border: 1px solid darkred;
+    border-radius: 4px;
+}
+
+.price {
+    color: darkred;
+}
+
+.image {
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.element {
+    width: 20%;
+    object-fit: cover;
+}
+
+.element:nth-child(n + 2) {
+    margin-left: 20px;
+}
+
+.element:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.element:last-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
